@@ -1,0 +1,107 @@
+body {
+  background-color: #236bfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trivia-container {
+  background-color: #4b00aa;
+  width: 25rem;
+  height: 36rem;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trivia-tittle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: aliceblue;
+  margin: 1rem;
+}
+.trivia-page {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.trivia-initial {
+  height: 8rem;
+  width: 20rem;
+  background-color: #760047;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trivia-initial:hover {
+  background-color: #cfcc05;
+  cursor: pointer;
+}
+
+/* .trivia-text {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-size: 1.2rem;
+} */
+
+.hidden {
+  display: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  width: 20rem;
+  height: 16rem;
+}
+
+.btn {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #760047;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.3rem;
+
+  color: aliceblue;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+.tittle-end {
+  font-size: 4rem;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  margin: 1rem;
+  padding: 0;
+}
+.btn-restart {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #760047;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+
+  color: aliceblue;
+}
